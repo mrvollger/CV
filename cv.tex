@@ -1,0 +1,249 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+\newcommand\Colorhref[3][cyan]{\href{#2}{\small\color{#1}#3}}
+
+\firstname{Mitchell Robert} % Your first name
+\familyname{Vollger} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+%\address{123 Broadway}{City, State 12345}
+%\mobile{(000) 111 1111}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+%\email{john@smith.com}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument %is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+
+%\extrainfo{additional information}
+
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\makecvtitle % Print the CV title
+\section{\textbf{Contact Information}}
+\subsection{\textbf{Email}}
+\hspace{25 mm}\cvitem{Primary}{\hspace{4 mm}mvollger@uw.com}
+\hspace{25 mm}\cvitem{Secondary}{\hspace{4 mm}mrvollger@gmail.com}
+
+\subsection{\textbf{Phone}}
+\hspace{25 mm}\cvitem{Mobile}{\hspace{4 mm}(707) 407-8732}
+\subsection{\textbf{Address}}
+\hspace{25 mm}\cvitem{Primary}{\hspace{4 mm}5637 20th Ave NE, Seattle Washington, 98105}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+
+
+\vspace{3 mm}
+\section{\textbf{Education}}
+
+\subsection{\textbf{Degree Programs}}
+
+%\texttt{\href{http://www.google.com}}
+
+\cventry{2016--Present}{Ph.D Candidate in Genome Sciences}{University of Washington}{Seattle, Washington}{GPA -- 3.86}{}  % Arguments not required can be left empty
+
+
+\cventry{2011--2015}{B.S.E. in Computer Science Engineering}{Princeton University}{Princeton, New Jersey}{\textit{GPA -- 3.13}. Student of the \textcolor{blue}{\small{\href{http://www.princeton.edu/integratedscience/}{Integrated Science Curriculum}}}}{}  % Arguments not required can be left empty
+ \cventry{2011--2015}{Certificate in \textcolor{blue}{\href{http://www.princeton.edu/integratedscience/certificate/}{Quantitative and Computational Biology}}}{Princeton University}{Princeton, New Jersey}{\textit{GPA -- 3.48}}{}  % Arguments not required can be left empty
+\cventry{2008--2011}{Associate of Arts Degree in Mathematics}{College of the Redwoods}{Eureka, California}{\textit{GPA -- 4.00}}{}
+\cventry{2008--2011}{Associate of Arts Degree in Science}{College of the Redwoods}{Eureka, California}{\textit{GPA -- 4.00}}{}
+
+
+%\cventry{2007--2010}{Bachelor of Business Studies}{The University of California}{Berkeley}{\textit{GPA -- 7.5}}{Specialized in Commerce}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\vspace{3 mm}
+\section{\textbf{Experience}}
+
+
+
+\vspace{3 mm}
+\subsection{\textbf{Independent Work and Research}}
+
+\cventry{Spring 2018 - Present}{Doctoral Candidate}{Resolving Collapsed Duplications in Genome Assembly}{University of Washington}{}{Advisor Evan Eichler, Genome Sciences. Developing and applying methods that use paralog specific variants (PSVs) to resolve collapsed duplications to improve genome assembly. }
+
+\cventry{Spring 2017 - Spring 2018}{Graduate Student}{See previous item}{University of Washington}{}{}
+
+\cventry{Winter 2017}{Graduate Student}{ Identifying Insertion/Deletion Events in Mendelian Diseases}{University of Washington}{}{Advisor Debbie Nickerson, Genome Sciences. Implemented a variety of variant callers on a large number of genomes across many Mendelian Diseases in order to more consistently identify insertion and deletion events}
+
+\cventry{Fall 2016}{Graduate Student}{Tandem Identification of Multiple Charge States in MS}{University of Washington}{}{Advisor William Noble, Genome Sciences.  Implemented group LASSO to confirm the existence of a single peptide in multiple charge states in mass spectrometry data for use in data independent acquisition (DIA) deconvolution. }
+
+\cventry{Fall 2014 - Summer 2015}{Researcher}{Developing a Reference Genome for W303}{Princeton University}{}{Advisor Alison Gammie, Molecular Biology Department. Developed methods to create a reference genome for W303 \textit{Saccharomyces cerevisiae} using existing high-throughput sequencing data. Relevant languages: Python, C, Java, R, and Matlab.}
+
+\cventry{Fall 2014 - Summer 2015}{Researcher}{Quantifying Mutations Due to Cisplatin and UV}{Princeton University}{}{Advisor Alison Gammie, Molecular Biology Department. Developed computational methods to quantify DNA damage done to \textit{Saccharomyces cerevisiae} by UV and Cisplatin \textit{in vivo}. Relevant languages: Python, C, Java, R, and Matlab.}
+
+\cventry{2014}{iOS Software Developer}{GeoTasker}{Princeton University}{}{Created \textcolor{blue}{\small{\href{https://sites.google.com/site/geotasker333/home}{GeoTasker}}}, a location-based reminder app released on iOS 8 in the fall of 2014, developed under the instruction of Brian Kernighan.  Relevant languages: Objective-C, and C}
+
+\cventry{Fall 2013}{Researcher}{Mutation Accumulation with Cisplatin and UV}{Princeton University}{}{Advisor Alison Gammie, Molecular Biology Department. Executed mutation accumulation experiments using Cisplatin and UV in \textit{Saccharomyces cerevisiae} for the purpose of obtaining whole-genome sequencing data on \textit{in vivo} mutations.  Relevant languages: R, C, Python}
+
+\cventry{Fall 2013}{Researcher}{Analysis of an Artificial Transcription Factor}{Princeton University}{}{Advisors Megan McClean, Alison Gammie, Marcus Noyes. Analyzed the transcriptomes of \textit{Saccharomyces cerevisiae} induced by Msn2 and by an artificial transcription factor mimicking Msn2.  Relevant languages: R}
+
+
+\subsection{\textbf{Vocational}}
+
+\cventry{Summer 2014}{Junior Developer}{North Coast Radiology}{Eureka, California}{}{Indexed medical journals to allow for searching by speech recognition software. Relevant languages: Python. }
+
+\cventry{Summer 2013}{Investment Analyst}{North Coast Radiology}{Eureka, California}{}{Researched stocks and investments for the company's pension fund. Relevant languages: Python, and R.}
+
+\cventry{Summer 2012}{Intern}{Del Norte Medical Imaging}{Crescent City, California}{}{Developed templates and macros as a diagnostic tool for radiologists. }
+
+%\subsection{Teaching}
+
+
+%----------------------------------------------------------------------------------------
+%	GRANTS SECTION
+%----------------------------------------------------------------------------------------
+
+\vspace{3 mm}
+\section{\textbf{Grants and Fellowships}}
+\cvitem{Fall 2017 - Present}{BDGN, Big Data in Genomics and Neuroscience. Funding for one year, renewable for a second year.}
+
+\cvitem{Fall 2016 - Fall 2017}{NIH/NHGRI T32, through the Genome Training Grant. Funding for two years.}
+
+%----------------------------------------------------------------------------------------
+%	Publications SECTION
+%----------------------------------------------------------------------------------------
+
+\vspace{3 mm}
+\section{\textbf{Publications}}
+
+\cvitem{}{ \textbf{Vollger MR},  Sorensen M, Welch AE,  Dang V, Graves-Lindsay TA, Wilson RK, Chaisson MJ*, Eichler EE* (2018). Long-read sequence and assembly of segmental duplications. \textit{Manuscript in review.}}
+
+
+%----------------------------------------------------------------------------------------
+%	Posters SECTION
+%----------------------------------------------------------------------------------------
+
+\vspace{3 mm}
+\section{\textbf{Posters}}
+
+\cventry{April 2017}{Identifying Multiple Charge States of Peptides in Mass Spectrometry}{2017 NHGRI Annual Meeting}{Washington University in St. Louis}{}{Presented a poster on the research I did with William Noble. A description of the research can be found in the Independent Work and Research section. }
+\cventry{September 2017}{Resolving Segmental Duplications with SNV based Community Detection}{2017 Genome Sciences Annual Retreat}{Washington University}{}{Presented a poster on my thesis research on developing and applying methods that use paralog specific variants (PSVs) to resolve collapsed duplications to improve genome assembly.  }
+
+
+%----------------------------------------------------------------------------------------
+%	Invited Talks SECTION
+%----------------------------------------------------------------------------------------
+
+\vspace{3 mm}
+\section{\textbf{Presentations}}
+
+\cventry{Feb 2015}{Speaker}{The Princeton High Throughput Sequencing Group}{Princeton University}{}{Invited to give a talk on the research that I did with Alison Gammie. The research is described in the Independent Work and Research section above. }
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\vspace{3 mm}
+\section{\textbf{Awards}}
+
+\cvitem{2011}{National Hispanic Recognition Program Scholar}
+\cvitem{2011}{National Merit Scholarship Semifinalist}
+\cvitem{2011}{Valedictorian, Academy of the Redwoods}
+\cvitem{2011}{Graduated with Highest Honors, College of the Redwoods}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\vspace{3 mm}
+\section{\textbf{Computer Skills}}
+
+\cvitem{Basic}{x86 Assembly, Objective C}
+\cvitem{Intermediate}{\LaTeX, Java, C, C++}
+\cvitem{Advanced}{Python, R}
+
+%----------------------------------------------------------------------------------------
+%	References SECTION
+%----------------------------------------------------------------------------------------
+
+\vspace{3 mm}
+\section{\textbf{References}}
+
+\cvitem{ \textcolor{blue}{\href{https://eichlerlab.gs.washington.edu/evan.html}{E. Eichler}}}{eee@gs.washington.edu  }
+\cvitem{ \textcolor{blue}{\href{http://infotheory.ee.washington.edu/}{S. Kannan }}}{ksreeram@uw.edu    }
+\cvitem{ \textcolor{blue}{\href{http://faculty.washington.edu/mchaisso/index.html}{M. Chaisson}}}{mchaisso@uw.edu}
+
+%\cvitem{ \textcolor{blue}{\href{http://molbio.princeton.edu/faculty/molbio-faculty/108-gammie}{A. Gammie}}}{agammie@princeton.edu  }
+%\cvitem{ \textcolor{blue}{\href{https://www.cs.princeton.edu/~bwk/}{B. Kernighan }}}{bwk.cs@princeton.edu   }
+%\cvitem{ \textcolor{blue}{\href{http://directory.engr.wisc.edu/bme/Faculty/Mcclean_Megan/}{M. McClean}}}{mmcclean@princeton.edu}
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
